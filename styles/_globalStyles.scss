@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Nunito:wght@300;400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+$header-color: #ff8000;
+$boxes-width: 1082px;
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    cursor: url("images/pack489-cutout.cur"), auto;
+}
+h1 {
+    font-size: 4.209rem;
+    display: inline;
+    color: $header-color;
+}
+h2 {
+    font-size: 3.157rem;
+    display: inline;
+    color: $header-color;
+}
+h3 {
+    font-size: 2.369rem;
+    display: inline;
+    color: white;
+}
+h4 {
+    font-size: 1.777rem;
+    color: white;
+}
+h5 {
+    font-size: 1.333rem;
+    color: white;
+    line-height: 2.5rem;
+}
+p {
+    color: white;
+    line-height: 1.7rem;
+}
+a {
+    color: rgb(0, 195, 255)
+}
+hr {
+    margin: 1em 0;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+img:hover {
+    cursor: url("images/pack489-cutout2.png"), auto;
+}
+
+@mixin flexContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

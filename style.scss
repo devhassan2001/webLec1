@@ -1,0 +1,28 @@
+@import 'styles/globalStyles', 'styles/animations';
+
+body {
+    background: url(images/download.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+    .viewBox {
+        display: flex;
+        .box {
+            width: 90vw;
+            margin: 0 5vw;
+            height: 100vh;
+            padding-top: 80px;
+
+            .flexBox {
+                display: flex;
+            }
+        }   
+        @import 'styles/firstPage', 'styles/secondPage', 'styles/thirdPage',
+                'styles/fourthPage', 'styles/sixthPage', 'styles/seventhPage',
+                'styles/eighthPage', 'styles/ninethPage', 'styles/tenthPage',
+                'styles/eleventhPage', 'styles/twelvthPage', 'styles/theirteenPage';
+
+    }   
+}
+
+

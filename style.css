@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Nunito:wght@300;400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  cursor: url("images/pack489-cutout.cur"), auto;
+}
+
+h1 {
+  font-size: 4.209rem;
+  display: inline;
+  color: #ff8000;
+}
+
+h2 {
+  font-size: 3.157rem;
+  display: inline;
+  color: #ff8000;
+}
+
+h3 {
+  font-size: 2.369rem;
+  display: inline;
+  color: white;
+}
+
+h4 {
+  font-size: 1.777rem;
+  color: white;
+}
+
+h5 {
+  font-size: 1.333rem;
+  color: white;
+  line-height: 2.5rem;
+}
+
+p {
+  color: white;
+  line-height: 1.7rem;
+}
+
+a {
+  color: #00c3ff;
+}
+
+hr {
+  margin: 1em 0;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+img:hover {
+  cursor: url("images/pack489-cutout2.png"), auto;
+}
+
+@-webkit-keyframes blink {
+  from {
+    border-right: 2px solid #746d6d;
+  }
+  to {
+    border-right: 2px solid #dddcdc;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-right: 2px solid #746d6d;
+  }
+  to {
+    border-right: 2px solid #dddcdc;
+  }
+}
+body {
+  background: url(images/download.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  overflow: hidden;
+}
+body .viewBox {
+  display: flex;
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Nunito:wght@300;400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@300;400;700&display=swap");
+}
+body .viewBox .box {
+  width: 90vw;
+  margin: 0 5vw;
+  height: 100vh;
+  padding-top: 80px;
+}
+body .viewBox .box .flexBox {
+  display: flex;
+}
+body .viewBox * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body .viewBox body {
+  font-family: "Montserrat", sans-serif;
+  cursor: url("images/pack489-cutout.cur"), auto;
+}
+body .viewBox h1 {
+  font-size: 4.209rem;
+  display: inline;
+  color: #ff8000;
+}
+body .viewBox h2 {
+  font-size: 3.157rem;
+  display: inline;
+  color: #ff8000;
+}
+body .viewBox h3 {
+  font-size: 2.369rem;
+  display: inline;
+  color: white;
+}
+body .viewBox h4 {
+  font-size: 1.777rem;
+  color: white;
+}
+body .viewBox h5 {
+  font-size: 1.333rem;
+  color: white;
+  line-height: 2.5rem;
+}
+body .viewBox p {
+  color: white;
+  line-height: 1.7rem;
+}
+body .viewBox a {
+  color: #00c3ff;
+}
+body .viewBox hr {
+  margin: 1em 0;
+  margin-bottom: 30px;
+}
+body .viewBox img {
+  width: 100%;
+  height: 100%;
+}
+body .viewBox img:hover {
+  cursor: url("images/pack489-cutout2.png"), auto;
+}
+body .viewBox .first-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+}
+body .viewBox .first-page header {
+  width: 1090px;
+  height: 200px;
+}
+body .viewBox i {
+  font-size: 3.5rem;
+  color: white;
+  margin: 0 0.5em;
+}
+body .viewBox .ex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+body .viewBox .ex .square {
+  border: 2px solid white;
+  padding: 4em;
+}
+body .viewBox .flexBox {
+  justify-content: space-around;
+}
+body .viewBox .flexBox .image {
+  width: 40%;
+  height: 70%;
+}
+body .viewBox .person {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+body .viewBox .person .image {
+  width: 90%;
+  height: 85%;
+}
+body .viewBox .six-page .ex img {
+  width: 900px;
+  height: 300px;
+}
+body .viewBox .seven-page .ex img {
+  width: 600px;
+  height: 400px;
+}
+body .viewBox .eight-page .ex img {
+  width: 400px;
+  height: 400px;
+}
+body .viewBox .nine-page .ex img {
+  width: 400px;
+  height: 400px;
+}
+body .viewBox .ten-page .ex {
+  margin-top: 50px;
+}
+body .viewBox .eleven-page .ex img {
+  width: 600px;
+  height: 370px;
+}
+body .viewBox .twelve-page .ex img {
+  width: 600px;
+  height: 200px;
+}
+body .viewBox .thirteen-page .ex img {
+  width: 550px;
+  height: 250px;
+}/*# sourceMappingURL=style.css.map */

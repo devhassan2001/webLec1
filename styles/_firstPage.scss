@@ -1,0 +1,10 @@
+@import 'globalStyles';
+.first-page {
+    @include flexContent;
+    margin-top: -50px;
+    & header {
+        width: 1090px;
+        height: 200px;
+    }
+
+}

@@ -1,0 +1,14 @@
+i {
+    font-size: 3.5rem;
+    color: white;
+    margin: 0 0.5em;
+}
+& .ex {
+    @include flexContent;
+    margin-top: 100px;
+
+    & .square {
+        border: 2px solid white;
+        padding: 4em;
+    }
+}
