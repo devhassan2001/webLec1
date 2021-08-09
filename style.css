@@ -53,6 +53,10 @@ hr {
   margin-bottom: 30px;
 }
 
+ol {
+  color: white;
+}
+
 img {
   width: 100%;
   height: 100%;
@@ -94,9 +98,16 @@ body .viewBox .box {
   margin: 0 5vw;
   height: 100vh;
   padding-top: 80px;
+  position: relative;
 }
 body .viewBox .box .flexBox {
   display: flex;
+}
+body .viewBox .box .logo {
+  position: absolute;
+  bottom: 10px;
+  right: -50px;
+  width: 100px;
 }
 body .viewBox * {
   margin: 0;
@@ -141,6 +152,9 @@ body .viewBox a {
 body .viewBox hr {
   margin: 1em 0;
   margin-bottom: 30px;
+}
+body .viewBox ol {
+  color: white;
 }
 body .viewBox img {
   width: 100%;
