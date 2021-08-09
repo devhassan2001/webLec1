@@ -3,7 +3,6 @@
 An idea that come to my mind to make a website that look like a powerpoint project but with some features that html,css,js provides.
 
 <br />
-<br />
 
 ## How to use
 ***
